@@ -1,0 +1,38 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between; /* Adjust the alignment to move navigation links to the right */
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0 20px; /* Add padding to the header for spacing */
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-right: 20px; /* Adjust the margin to move links to the right */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white; /* Set link color to white */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #61dafb; /* Change the color on hover */
+}
